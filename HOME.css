@@ -179,15 +179,15 @@
 }
 
 .u-section-2 .u-btn-1 {
-  letter-spacing: 1px;
   border-style: none;
-  font-weight: 700;
-  text-transform: uppercase;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
   margin: 89px 198px 0 auto;
 }
 
