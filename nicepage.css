@@ -40866,6 +40866,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
         }
 
         /** common-rules **/
@@ -40998,6 +40999,10 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-attachment: fixed;
         }
         .u-input
         {
@@ -41415,7 +41420,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-list-1 {
-    margin-top: -78px;
+    margin-top: 20px;
     margin-right: 60px;
   }
 
@@ -41444,8 +41449,17 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 449px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 6px;
+  }
+
   .u-header .u-list-1 {
     width: 340px;
+    margin-bottom: 6px;
   }
 
   .u-header .u-repeater-1 {
